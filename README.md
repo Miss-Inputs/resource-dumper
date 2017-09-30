@@ -1,2 +1,4 @@
 # resource-dumper
-Resource fork dumping utility for Mac OS 9 (maybe 8 etc)
+This is a small simple application that runs with MacPython 2.2.3 (maybe other versions but those would be untested). It asks the user for a file and dumps the entire resource fork to a folder containing each resource as a data file. The file type is set to the resource type (so certain things might open inside Mac OS) and the creator is set to ???? so you'll get prompted to find something that can open it, though you'll probably want to use something like FileTyper to set things unless you're just copying the files over to Windows/Linux/etc from a SheepShaver guest or something.
+
+This is intended for ripping the music from old Mac games so you can theoretically listen to stuff on Windows/Linux, but I guess it could be used for other evil purposes too. As an example, if you have a MADH resource that a lot of games seem to use, it will write the creator as PlayerPRO so you can open the file there, and then convert it to .xm or whatever.
