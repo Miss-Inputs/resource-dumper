@@ -584,3 +584,169 @@ TODO other stuff
 
 ### Music
 snd resource 1011
+
+## Banshee
+TODO other stuff (pretty simplistic)
+
+### Sound effects
+snd resources, 9130 is the main one
+
+## Jared
+TODO
+Jared Choir probably uses the same data, Jared's Christmas probably just replaces the song and graphics
+
+## Menu Madness
+TODO
+
+## Mr. Relaxer
+TODO
+
+## Galaxis
+TODO
+
+## Garcia's Guitars
+TODO
+
+## Gearheads Demo
+TODO
+Maybe works same way for full game?
+The .mid files in the wav folder aren't MIDI files, and are only about 300 bytes
+
+## George Stock Game
+TODO
+
+## Gerbils!
+TODO
+
+## Glider PRO
+TODO other stuff
+Source code may give insight into how the resources are used
+
+### Music
+snd resources in main executable with ID > 2000, seems to be one song split into multiple parts
+
+## GoldPusher
+TODO
+
+## Grag & Thog Bonkheads
+TODO
+
+## IQ Test
+TODO
+
+## iTarget
+TODO
+
+## Jewelbox
+TODO
+There's a lot of snd resources that ResEdit can't play due to a "bad sound format"
+
+## Jingle Bell Mac
+TODO other stuff
+
+### Sound effects
+The Sounds folder contains a bunch of System sounds and you can add your own, when you select one in the application it replaces snd 27573 inside itself with that sound
+
+## Josh's Apple Game
+TODO
+
+## Kid Pix
+TODO
+Not really a game, but it'd be interesting to dig into the resources and data files (clip art, etc)
+
+## Kid Pix Studio Deluxe
+TODO
+Not really a game, but it'd be interesting to dig into the resources and data files (clip art, etc)
+
+## Kid Pix Studio Deluxe 3
+TODO
+Not really a game, but it'd be interesting to dig into the resources and data files (clip art, etc)
+
+## King's Quest V: Absence Makes the Heart Go Yonder
+TODO
+SCI engine
+ScummVM supports the Mac version so its source may be useful
+
+## Little Red Wagon
+TODO
+SuperCard engine
+
+## Live & Kicking: Show Maker
+TODO
+Macromedia Director engine
+Runs from the CD, a lot of the content is just there
+
+## MacChess
+TODO
+
+## MacDo
+TODO
+
+## macloned
+TODO other stuff
+
+### Music
+discloned.xm is right there and it's an XM module what more do you want
+
+## MacPipes
+TODO other stuff
+
+### Music
+snd 30000 in MacPipes Music
+
+## Populous II
+TODO
+
+## MACrostrange
+TODO other stuff
+
+### Music
+5tfina.mp3 in data folder
+
+## Syndicate
+TODO
+
+## Theme Park
+TODO
+
+## ManicMinefields
+TODO
+
+## MegaSimpsonHomer
+TODO
+
+## MineSweeper Pro
+TODO
+
+## The Missions of Starship Reliant II
+TODO
+
+## Ms. MacPherson Demo
+TODO
+Maybe works same way in full game
+
+## Fine Artist
+TODO
+
+## Creative Writer
+TODO
+
+## Mythos
+TODO
+
+## NameThatGame
+TODO
+Macromedia Director engine
+
+## Odyssey: The Legend of Nemesis
+TODO
+"Music File" has an empty resource fork, but CanOpener can't find anything, and QuickTime Player won't open it, but if you copy it to Linux and use the file command it'll say it's an unoptimized QuickTime movie. It'd have to be MIDI given the small size
+
+## Owari
+TODO
+
+## PacMac Deluxe
+TODO other stuff
+
+### Music
+Module files in the Music folder (all ProTracker I think). The readme explains that you can add your own music to that folder, and given the plugs, that can be 669, IT, MADfg, MADH, MED, MIDI, MOD, MTM, OKTA, S3M, or XM
