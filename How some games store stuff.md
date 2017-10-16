@@ -784,3 +784,180 @@ TODO
 
 ## Sim Tape Dispenser
 TODO
+
+## SimAnt
+TODO
+INST and SONG and MIDI oh my
+
+## SimEarth
+TODO
+There's SONG resources and a TMPL for them but not INST or anything else that could be instruments
+
+## SimFarm
+TODO
+If you open this with ResEdit it'll tell you off because it was apparently checked out as locked from an MPW project
+Also there's the INST/SMOG/SONG resources yay
+
+## SimHolePunch
+TODO
+
+## SimLife 
+TODO
+Sigh more INST/Midi/SONG resources
+
+## Space Sirens 2: Megababes from Ajia
+TODO
+
+## Slithereens
+TODO other stuff
+
+### Music
+MADH resources in Slithereens Music
+
+## Solitaire Till Dawn
+TODO
+
+## Space Cab
+TODO other stuff
+
+### Music
+AIFF files in Music folder
+
+## Spaceward Ho! 5
+TODO
+Because this is a Carbonized application package it won't work the same way as older versions
+
+## Spaceway 2000 Demo
+TODO
+Might work the same way in full game
+
+## Spectre VR Demo
+TODO
+Might work the same way in full game
+
+## Squish
+TODO
+
+## Strange Adventures in Infinite Space
+TODO
+Uses .app bundle
+
+## Tetris Max
+TODO
+Animal Instinct Music and Peter Wagner Music contain snd resources, but the latter has multiple so I'm confused
+
+## The Fantastic War
+TODO
+
+## The Fool's Errand
+TODO
+
+## PokeROMs / Pokemon Sanctuary
+TODO
+Macromedia Director engine
+
+## Logical Journey of the Zoombinis (2001 re-release)
+TODO
+Macromedia Director engine I think
+
+## The Virtual Stock Market
+TODO
+
+## A Case for TKKG: Deadly Chocolate
+TODO
+
+## Tomato Head
+TODO
+SuperCard engine
+
+## Trainset +10
+TODO
+
+## Tristan
+TODO
+
+## Virtual Veronica
+TODO
+:^)
+
+## Water Town Beta
+TODO
+Park Quest engine
+Not sure if there was ever a finished version
+
+## WaterRace Demo
+TODO
+Maybe works same way in full game
+
+## Weekend Warrior
+TODO
+
+## White House Tour VR Demo
+TODO
+
+## Widget Workshop Demo
+TODO
+Maybe works same way in full game
+
+## Woden
+TODO other stuff
+
+### Music
+MADH resources with track titles as names
+
+## Wrath of the Aliens
+TODO
+
+## Wrath of the Gods Demo
+TODO
+Maybe works same way in full game
+
+## Zroids
+TODO
+I think my installation is borked because there's a Music folder with nothing in it
+
+## My Little Kitchen
+TODO
+Hypercard stack
+
+## Camping Story
+TODO
+Hypercard stack
+
+## Virtual Springfield
+TODO
+
+## Ingenious
+TODO
+
+## Stay Tooned!
+TODO
+Macromedia Director engine
+
+## The Labyrinth of Time
+TODO
+ScummVM plays this but I dunno if the Mac version works
+
+## Xpand Xpo
+TODO
+Just a glorified QuickTime VR movie really
+
+## Reading Blaster Jr.
+TODO
+
+## Indiana Jones and the Fate of Atlantis
+TODO
+SCUMM engine
+ScummVM plays the Mac version so its source might come in handy
+
+## What's For Dinner, Thankyou!
+TODO
+
+## Dark Seed
+TODO
+
+## SuperSolvers OutNumbered!
+TODO
+
+## SimTower
+TODO
