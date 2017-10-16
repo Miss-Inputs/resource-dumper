@@ -7,3 +7,4 @@ TODO list because I can't be stuffed raising issues for myself:
   - Nicer interface, or I should say an interface at all. Just a nice little list of resource types that you can browse through, and when you select one a nice little list of resources of that type appear, and then you have a button to extract selected, which extracts the whole lot if you don't select a resource type, or all resources of a type, or all the resources you have selected or just one. Maybe a button to convert, maybe even a play/view/etc button  
   - Convert some known resource types to more usable formats (but dump the original as well)  
   - Maybe resource injection?
+  - Maybe Linux/Windows/etc version that can look in .rsrc folders on BasiliskII/SheepShaver shared drives, or HFS disk images
