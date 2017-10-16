@@ -483,3 +483,104 @@ Probably same thing for full game
 
 ### Music
 .aiff files in SWData:Audio
+
+## Buried in Time Demo
+TODO other stuff
+Might be more music in full game?
+
+### Music
+"Music - opening" file is just an AIFF file
+
+## Candy Crisis
+TODO other stuff
+Should be the same for 1.0 and 1.2 (open source re-release), the music is at least
+
+### Music
+.mod resource, all nicely named and credited. They should just be various module files (I haven't tried dumping them yet), depsite the name I know some of them are in .s3m format as they are in the Mac OS X/Windows version
+
+## CartoonShy
+TODO
+
+## ChessWorks
+TODO
+
+## Chiral
+TODO other stuff
+
+### Music
+snd resources in Chiral Music. It's really just one song, it's just split into two parts so that it can have an intro but loop seamlessly without playing the intro again.
+
+## ChristmasTime
+TODO
+SuperCard engine
+
+## ClarisWorks For Kids
+TODO
+Not really a game, but it'd be interesting to dig into the resources and data files (clip art, etc)
+
+## CrashBall
+TODO
+
+## Cricket Demo
+TODO
+Probably works same way as full game
+
+## Crystal Crazy Demo
+TODO
+Probably works same way as full game
+
+## Cyberopoly
+TODO
+
+## Dart Board
+TODO
+
+## Dirt Bike
+TODO other stuff
+
+### Music
+snd resource 15445 in main executable
+
+## Monsters Inc. Wreck Room
+TODO
+Only have Bowling
+Macromedia Director engine I think
+
+## Dollhouse Time
+TODO
+HyperCard engine
+
+## Doom (Shareware)
+TODO
+It'd be just in the WAD files really
+
+## EA Kids - Eagle Eye Mysteries in London
+TODO
+I see some "Midi" resources in that resource fork but also a lot of csnd/INST/SONG shenanigans
+
+## EV Override
+TODO
+
+## Faces ...Tris III
+TODO
+Yay INST/SONG resources my favourite also BGAS and PHAZ
+
+## Ferazel's Wand Demo
+TODO other stuff
+Full game probably works the same way
+
+### Music
+AIFF files in Ferazel Demo Music folder
+
+## Flight Unlimited Demo
+TODO
+Probably works same way as full game
+
+## Foobar versus the DEA
+TODO
+
+## Food Chain
+TODO other stuff
+
+### Music
+snd resource 1011
