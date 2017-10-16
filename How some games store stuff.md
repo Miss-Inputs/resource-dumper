@@ -241,3 +241,129 @@ There's also TMPL resources in EV Graphics for spïn and spït, which describe t
 ### Text
 STR# resources in EV Data. There's some STR resources as well. The intro text is STR# 20000, with each line being a different string.
 
+## Factory: The Industrial Devolution
+TODO
+
+## Fakie Flair Challenge 2002
+TODO
+
+## 3D Hearts Lite
+TODO other stuff
+
+### Music
+MIDI inside a QuickTime container in Soundtrack folder.
+
+## Burning Monkey Solitaire
+TODO other stuff
+
+### Music
+MIDI inside a QuickTime container in Soundtrack folder.
+
+## Frog Xing
+TODO other stuff
+
+### Music
+snd resource 201 in main executable.
+
+## Game Doctor
+TODO
+
+## GopherGolf
+TODO
+
+## Greebles
+TODO (Music seems to be in MDAT resource)
+
+## Gryphon Bricks
+TODO
+
+## Harry the Handsome Executive
+TODO
+
+## Holiday Lights
+TODO bulbs etc (there's a guide included), pictures, anything else
+
+### Music
+MIDIs in a QuickTime container in the Music Files folder, but if you put your own plain MIDI files in there it'll still recognise them
+
+## Zador
+TODO other stuff
+Uses the METAL engine, which has nothing to do with Apple's new graphics API
+
+## Mavis Beacon Teaches Typing 5
+TODO other stuff
+
+### Music
+\*.MID files in the Sounds folder, but they're actually AIFF files
+
+## MemoryPICT
+TODO
+
+## Miniature Golf
+TODO
+
+## Nanosaur
+TODO other stuff
+
+### Music
+AIFF files in Data\:Audio folder
+
+## Realmz
+TODO other stuff
+
+### Music
+ProTracker MOD files in Realmz Music folder, except for Outdoor Music which is an XM; most module players can play both formats anyway
+
+The "Where to find more music files" text file there would imply that you can also put MADH, MIDI, and S3M formats in here and they'll be usable for custom scenarios or whatever; in the Plugs folder you see S3M, XM, IT, MED, MOD, OKTA, MADfg (whatever that is), and MTM plugs so it'd most likely support those
+
+## Reckless Drivin'
+TODO
+
+## Royal Flush
+TODO (I thought this had music but I don't see anything relevant)
+
+## Sim Cinema Deluxe
+TODO
+
+## SimCity 2000
+TODO (Music is not in a normal format, there's INST and MIDI and SONG and SMOD resources that all seem related to this, I think it uses MIDI with its own built-in player or something)
+
+## SlopeRider
+TODO
+
+## The Trials of Achenar
+TODO
+It's a Hypercard stack but it puts its data in external files
+
+## Tiger's Eye Pub
+TODO other stuff
+
+### Music
+MIDI files in the Music folder. There's also a text clipping that informs you that you can put any QuickTime-compatible music file in there
+
+## Ultima III
+TODO other stuff
+
+### Music
+ProTracker MODs in the Ultima Music folder
+
+## Vortex NG
+TODO
+
+## Wanderer I: The Cult of Misery
+TODO
+
+## Card 99
+TODO
+
+## Desert Trek
+TODO
+
+## Elf Forest
+TODO
+
+## MacSnack
+TODO
+
+## Mille Bornes
+TODO
