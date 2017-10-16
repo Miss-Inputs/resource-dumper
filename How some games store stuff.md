@@ -316,6 +316,8 @@ ProTracker MOD files in Realmz Music folder, except for Outdoor Music which is a
 
 The "Where to find more music files" text file there would imply that you can also put MADH, MIDI, and S3M formats in here and they'll be usable for custom scenarios or whatever; in the Plugs folder you see S3M, XM, IT, MED, MOD, OKTA, MADfg (whatever that is), and MTM plugs so it'd most likely support those
 
+Also those modules aren't originally from this game
+
 ## Reckless Drivin'
 TODO
 
@@ -367,3 +369,76 @@ TODO
 
 ## Mille Bornes
 TODO
+
+## Coloring Book
+TODO
+
+## Cube Strategy
+TODO
+
+## DoodleFish
+TODO
+This uses a common engine that I've seen in other text/clicky adventure games, but I don't know what it is, let's call it the Park Quest engine for now since that seems to be the most notable game
+
+## Eric's Ultimate Solitaire / Eric's Solitaire Sampler
+TODO
+
+## Fluffy's Adventure
+TODO
+
+## Hang3000
+TODO
+
+## The Journeyman Project Turbo
+TODO (the data itself would be on the CD)
+
+## Pop-A-Penguin
+TODO (Macromedia Director 4 engine, this is a minigame from Stay Tooned! with the same assets anyway)
+
+## MacQubic
+TODO
+
+## Monopoly (Thomas E. Fosson)
+TODO
+
+## Pararena
+TODO
+
+## Scarab of RA
+TODO
+
+## SimTown
+TODO (has the same INST/MIDI/SONG/SMOD shenanigans as SimCity 2000)
+
+## Smashing Windows II
+TODO other stuff
+
+### Music
+MADH resource 128 (only one), but it's not originally composed for this game, it's just [Airdance by The Wizard](https://modarchive.org/index.php?request=view_by_moduleid&query=121558)
+
+## The Great LightBulb Adventure
+TODO (Park Quest engine again)
+
+## VirtualHamster
+TODO
+
+## WiggleWorks Demo
+TODO
+
+## 3 in Three
+TODO ("3 puzzles" only has a version in its resource fork, the rest can only be seen in CanOpener etc)
+
+## 3D Hearts Deluxe
+TODO
+
+## 3D Ultra Pinball: NASCAR
+TODO
+
+## Chuck Yeager's Air Combat
+TODO
+
+## Apeiron
+TODO other stuff
+
+### Music
+snd resources in Apeiron Music
