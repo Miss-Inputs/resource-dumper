@@ -750,3 +750,37 @@ TODO other stuff
 
 ### Music
 Module files in the Music folder (all ProTracker I think). The readme explains that you can add your own music to that folder, and given the plugs, that can be 669, IT, MADfg, MADH, MED, MIDI, MOD, MTM, OKTA, S3M, or XM
+
+## Pararena 2
+TODO
+Source code may come in hnady
+
+## Park Quest Demo
+TODO
+Park Quest engine, natch
+
+## PGA Tour Golf II
+TODO
+
+## PowerPOKER
+TODO
+
+## Prometheus
+TODO
+
+## Ricochet
+TODO
+
+## robotfindskitten
+
+### Text
+STR# 128 contains all the responses to things that aren't kitten.
+
+## Rogue
+TODO
+
+## Scholastic Colouring Book Creator
+TODO
+
+## Sim Tape Dispenser
+TODO
