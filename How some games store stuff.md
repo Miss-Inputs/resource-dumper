@@ -31,6 +31,9 @@ TODO figure out this one too, since it seems to pop up a lot
 Almost every game and application will have at least one of these, since it's where the icon that you see in the Finder goes.
 TODO figure out this one as well
 
+### AppleScript
+Just putting this here so one day I'll be motivated to find a way to decompile AppleScript applications...
+
 --------
 ## A Day at Work
 Unknown. Uses the Cocoa engine (the one that was an engine before Cocoa was an appliction framework. It's okay to be confused, just know that the engine's called Cococa, and there's a DITL resource which credits the "Cocoa Autoplayer Engine" copyright Apple 1998 written by Peter Jensen). CanOpener can't even see anything except a picture of a bird thing on a hoverboard used in that DITL.
@@ -442,3 +445,41 @@ TODO other stuff
 
 ### Music
 snd resources in Apeiron Music
+
+## Apple Company Store VR Demo
+TODO
+
+## AstroRock 2000 Demo
+TODO other stuff
+Might be the same for full game
+
+### Music
+AIFF files in music folder
+
+## At the Carnival
+TODO
+
+## Avara
+TODO
+
+## Avernum 3
+TODO (I suspect all 3 original Avernum games work the same way)
+
+## Barrack
+TODO other stuff
+
+### Music
+snd resources in Barrack Music
+
+## Battleship (Craig Hoyt/Pyramid Software)
+TODO
+
+## Beat the Dragon
+TODO
+
+## Bugdom (shareware)
+TODO other stuff
+Probably same thing for full game
+
+### Music
+.aiff files in SWData:Audio
