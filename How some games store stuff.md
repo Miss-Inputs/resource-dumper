@@ -1,4 +1,6 @@
-For my own evil purposes, this is a list of some games, and how they store their data. So you know how to rip them I guess. I just woke up I don't know how to describe things.
+For my own evil purposes, this is a list of some games, and how they store their data. So you know how to rip them I guess. I just woke up I don't know how to describe things. This document assumes you know what a resource is and all that sort of thing.
+
+TODO: This should just be a wiki page actually
 
 ## Commmon formats
 
@@ -8,10 +10,26 @@ This resource is just a MADH file, which Resource Dumper extracts nicely. You ju
 PlayerPRO is open source and once extracted with Resource Dumper it's just a data fork, so it'd be theoretically possible to make a MADH player on Windows/Linux/etc and you wouldn't need conversion. Nobody's done that though. I think.
 
 ### snd resource
-I'm not sure of the format, it's not just raw streamed audio as you might think, nor are they just snd files you can put in the System suitcase for use as alert sounds. Brian's Sound Tool can extract them (to WAV/AIFF), but it'll just give you every single sound resource at once. i suppose Resource Dumper would do that too with the way it's currently designed.
+I'm not sure of the format, it's not necessarily raw streamed audio as you might think, nor are they just snd files you can put in the System suitcase for use as alert sounds. Brian's Sound Tool can extract them (to WAV/AIFF), but it'll just give you every single sound resource at once. i suppose Resource Dumper would do that too with the way it's currently designed.
 
 ### nVir
 If you see this resource you have the nVir.A virus! Get rid of it, silly.
+
+### System sound
+Not sure what the proper name for these are, but these are the ones with a type of sfil and a creator of movr that you can put in your System suitcase and use as alert sounds, or open in the Finder to hear them. I don't know the exact format, though. But if you open one with ResEdit, you get a snd resource, so that's interesting.
+
+### PICT resource
+I should find the format of these and how to convert them to BMP or PNG or similar...
+
+### PICT file
+Not quite a PICT resource, they have no resource fork actually. They have a file type of PICT and can be opened by ClarisWorks and GraphicConverter and other various things, PictureViewer (from QuickTime) should work if you have nothing else.
+
+### cicn resource
+TODO figure out this one too, since it seems to pop up a lot
+
+### icl8/icl4/ics8/etc.
+Almost every game and application will have at least one of these, since it's where the icon that you see in the Finder goes.
+TODO figure out this one as well
 
 --------
 ## A Day at Work
@@ -133,3 +151,93 @@ Various title screen graphics and what I think is cutscenes and pics of the deve
 
 ### Sound effects
 snd resources in Cave Dig Classic executable.
+
+## Change My Image
+### Graphics
+Title screen graphics is PICT 128 in the main executable. Also there's an outline of a face.
+
+The hairstyles are in r/long r/short s/long s/medium etc whatever inside the HairData folder, and then there's some png files. There's a way to add new hairstyles I think, Infinisys's website says something about that.
+
+Models are just JPEG files inside the Models folder.
+
+### Text
+The STR# resources in the main executable seem unorganized, but there's error messages, help messages, UI text, and stuff involving shareware reminders.
+
+## Chronicles of Ekan
+### Sound effects
+System sound files in the Data Files folder. There's also snd resources in the main executable, which seem to be just phone dial tones and instuments.
+
+### Music
+MIDI files in the Data Files folder, but they're in a QuickTime container for no good reason (must be an old format or something because VLC can't play them, you have to extract them using QuickTime Player. Luckily you can just do Export and Sound to General MIDI)
+
+### Game data
+Hypercard stacks? Well okay then. So you can in theory just edit them with HyperCard.
+
+### Graphics
+There's some PICT files in the Data Files folder, as well as PICT resources in the Hypercard stacks.
+
+## Cortex
+### Graphics
+Tiles are in ppat resources, as you might expect. Seems to be a recurring thing with games.
+
+The rest of the graphics are naturally in PICT resources, except for the sprites, which are cicn resources.
+
+### Music
+snd resources, most are named "M1" "M2" "M3"... "M30" but some aren't.
+
+### Sound effects
+The snd resources that aren't music.
+
+## Deathground Demo
+(Some of these might be the same for the full game, I don't have the full game so I dunno)
+Apparently there's a manual chapter called "Changing the Code" which contains information on a lot of this.
+### Graphics
+PICT resources in main executable contain an ad for the full game and other demo-related things.
+
+Graphics for the characters are PICT resources in DG Player 1, DG Player 2, etc; they have what looks to be an alpha mask as well as the actual graphics. Some don't have any graphics except for a face, those ones are probably exclusive to the full game.
+
+The rest of the graphics are PICT resources in DG Graphics.
+
+### Sound effects
+Voices for each character are in DG Player 1, DG Player 2, etc. as snd resources.
+
+The sound effects and other voices are snd resources in DG Sounds. snd 1013 ("intro") seems to produce an I/O error when I try to play it, maybe it's too big for Super ResEdit to handle.
+
+### Text
+There's a biography for each character in DG Player 1, DG Player 2, etc. in the TEXT resource 128. The accompanying styl resource just makes it bold.
+
+There's also some TEXT/styl resources in DG Data which describe the game world.
+
+### Game data
+Some of the TEXT resources in DG Data seem to describe the game modes in some kind of human readable description language.
+
+DG Data has a few TMPL resources for editing various things, but they all seem to be invalid according to Super ResEdit, which complains about LCNT being an invalid field type.
+
+### Movies
+The animated Freeverse logo is a QuickTime movie called "Freeverse Movie" in the Data folder. VLC can play it just fine.
+
+## Double
+TODO
+
+## Escape Velocity
+There's a program by the name of [EV-Edit](https://www.macintoshrepository.org/2215-ev-edit-2-1) which can edit the game data, but you can do all that with ResEdit too.
+TODO: Describe the game data resources anyway (you have sÿst = star systems, spöb = planets/moons/etc, shïp = ships, dësc = various text, wëap = weapons, oütf = equippable items (IDs seem to correspond to wëap IDs if they're weapons), düde = generic NPCs, gövt = factions, mïsn = missions, përs = named NPCs, öops = random events/news items, nëbu = nebulas (or is it nebulae?), flét = fleets, jünk = cargo types; these all have TMPL resources in EV Data, there's also something called a dsïg which doesn't seem to be used and also spïn and spït which are described in EV Graphics)
+
+### Music
+snd resources in EV Music.
+
+### Sound effects
+snd resources in EV Sounds.
+
+### Graphics
+EV Titles contains PICT resources for the title screen UI, the litte door opening animation, the Ambrosia logo, the side panel UI in-game, the Interstellar News Network banner, and the various planets/moons/space stations/etc that you can land on.
+
+EV Graphics also has PICT resources containing sprite sheets for ships and weapons and floating asteroids and explosions, planets/moons/etc (as they appear on the overworld), the image that displays on the in-game HUD when you select another ship, pictures of other ships when you talk to them, pictures for items/weapons in the shops, UI buttons, slot machine graphics, as well as duplicates of the spinning planet menu thingy and a rocky planet graphic from EV Titles. And nebulas.
+
+The ppat resources in EV Graphics are used for map static when there's jammer inteference.
+
+There's also TMPL resources in EV Graphics for spïn and spït, which describe the sprite sheets and count the total number of sprites respectively.
+
+### Text
+STR# resources in EV Data. There's some STR resources as well. The intro text is STR# 20000, with each line being a different string.
+
